@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Playball&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    font-family: 'Carattere', cursive;
+    font-family: 'Playball', cursive;
+    font-size: 50px;
+    animation: color-change 6s ease-in-out infinite;
+}
+
+@keyframes color-change{
+    0% {color: red;}
+    10% {color: yellow}
+    20% {color: pink;}
+    30% {color: magenta;}
+    40% {color: cyan;}
+    50% {color: darkcyan}
+    60% {color: blue}
+    70% {color: brown;}
+    80% {color:salmon }
+    90% {color: lightgreen;}
+    100% {color: rgb(255, 72, 0);}
+}
+
+.palette{
+    display: inline;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul .rect-box{
+    width: 75px;
+    height: 75px;
+    background-color: #000000;
+    border-style: none;
+    margin: 10px;  
+     
+}
+li{
+    list-style: none;
+}
+
